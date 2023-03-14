@@ -1,1 +1,1 @@
-{"version":3,"sources":["script.js"],"names":[],"mappings":"AACA","file":"script.js","sourcesContent":[null]}
+{"version":3,"sources":["script.js","main.js"],"names":["searchForm","document","querySelector","onclick","classList","toggle"],"mappings":"AAAA,aCAA,IAAIA,EAAaC,SAASC,cAAc,gBAExCD,SAASC,cAAc,eAAeC,QAAU,WAC5CH,EAAWI,UAAUC,OAAO","file":"script.js","sourcesContent":[null,"let searchForm = document.querySelector('.search-form');\r\n\r\ndocument.querySelector('#search-btn').onclick = () => {\r\n    searchForm.classList.toggle('active');\r\n}"]}

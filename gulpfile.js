@@ -111,7 +111,7 @@ function watch() {
     //watch css files
     gulp.watch('./src/scss/**/*.scss', gulp.series(convert, styles))
         //watch js files
-    gulp.watch('./src/js/**/*.js', scripts)
+    gulp.watch('./src/scripts/**/*.js', scripts)
         //start sync when html is changed
     gulp.watch("./*.html").on('change', browserSync.reload);
 }
