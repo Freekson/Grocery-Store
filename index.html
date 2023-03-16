@@ -28,16 +28,106 @@
             <a href="#blogs">blogs</a>
         </nav>
         <div class="header__icons">
-            <!-- <div class="fas fa-bars" id="menu-btn"></div> -->
+            <div class="fas fa-bars" id="menu-btn"></div>
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-shopping-cart" id="cart-btn"></div>
             <div class="fas fa-user" id="login-btn"></div>
         </div>
     </header>
-    <section class="search-form">
-        <form action="">
+
+    <section class="section search-form">
+        <form  action="">
             <input type="search" id="search-box" placeholder="search here...">
             <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </section>
+    <section class="section shopping-cart">
+        <div class="section__wrapper">
+            <h3 class="section__title">your products</h3>
+            <div class="product__wrapper">
+                <div class="product">
+                    <i class="fas fa-times"></i>
+                    <img src="build/img/menu-1.png" alt="">
+                    <div class="content">
+                        <h3>delicious food</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" value="1">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $40.00 </span>
+                    </div>
+                </div>
+                <div class="product">
+                    <i class="fas fa-times"></i>
+                    <img src="build/img/menu-2.png" alt="">
+                    <div class="content">
+                        <h3>delicious food</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" value="1">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $40.00 </span>
+                    </div>
+                </div>
+                <div class="product">
+                    <i class="fas fa-times"></i>
+                    <img src="build/img/menu-3.png" alt="">
+                    <div class="content">
+                        <h3>delicious food</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" value="1">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $40.00 </span>
+                    </div>
+                </div>
+                <div class="product">
+                    <i class="fas fa-times"></i>
+                    <img src="build/img/menu-4.png" alt="">
+                    <div class="content">
+                        <h3>delicious food</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" value="1">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $40.00 </span>
+                    </div>
+                </div>
+                <div class="product">
+                    <i class="fas fa-times"></i>
+                    <img src="build/img/menu-5.png" alt="">
+                    <div class="content">
+                        <h3>delicious food</h3>
+                        <span> quantity : </span>
+                        <input type="number" name="" value="1">
+                        <br>
+                        <span> price : </span>
+                        <span class="price"> $40.00 </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3 class="section__title"> cart total </h3>
+            <div class="total-info">
+                <h3 class="subtotal"> subtotal : <span>$200</span></h3>
+                <h3 class="total"> total : <span>$200</span></h3>
+                <a href="#" class="btn">proceed to chechout</a>
+            </div>
+        </div>
+    </section>
+    <section class="section login-form">
+        <form action="">
+            <h3>login form</h3>
+            <input type="email" name="" placeholder="enter your email" class="login-input">
+            <input type="password" name="" placeholder="enter your password" class="login-input">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>forget password <a href="#">click here...</a></p>
+            <p>don't have an account yet? <a href="#">create one</a></p>
         </form>
     </section>
     <script src="build/js/script.js"></script>
