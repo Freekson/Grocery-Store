@@ -17,23 +17,11 @@ const sass = gulpSass(dartSass);
 //array for files
 const cssFiles = [
     './src/scss/css/main.css',
-    './src/scss/css/_variables.css',
-    './src/scss/css/_animations.css',
-    './src/scss/css/_mixins.css',
-    './src/scss/css/_footer.css',
-    './src/scss/css/_header.css',
-    './src/scss/css/_global.css',
 
 ]
 const scssFiles = [
     './src/scss/main.scss',
     //space for your scss files
-    './src/scss/_variables.scss',
-    './src/scss/_mixins.scss',
-    './src/scss/_animations.scss',
-    './src/scss/_footer.scss',
-    './src/scss/_header.scss',
-    './src/scss/_global.scss',
 
 ]
 const jsFiles = [
