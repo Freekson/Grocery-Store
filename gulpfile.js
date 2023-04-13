@@ -19,12 +19,6 @@ const cssFiles = ["./src/scss/css/main.css"];
 const scssFiles = [
   "./src/scss/main.scss",
   //space for your scss files
-  "./src/scss/_variables.scss",
-  "./src/scss/_mixins.scss",
-  "./src/scss/_animations.scss",
-  "./src/scss/_footer.scss",
-  "./src/scss/_header.scss",
-  "./src/scss/_global.scss",
 ];
 const jsFiles = [
   "./src/scripts/main.js",
